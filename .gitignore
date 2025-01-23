@@ -1,0 +1,66 @@
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+
+# Java specific files
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Compiled source
+/bin/
+/build/
+/target/
+/out/
+
+# Maven specific files
+.mvn/
+/settings.xml
+/settings-security.xml
+
+# Gradle specific files
+.gradle/
+build/
+*.gradle*
+!gradle-wrapper.jar
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IntelliJ generated files
+.idea/
+*.ipr
+*.iws
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.env/
+venv/
+
+# Generated files
+*.class
+*.war
+*.jar
+*.ear
+
+# Other
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
