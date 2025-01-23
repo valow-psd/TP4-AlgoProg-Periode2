@@ -10,7 +10,7 @@ public class Mult2n {
     }
 
     public int m2n1() {
-        steps.setLength(0); // Clear steps for m2n1
+        steps.setLength(0); // réinitialise les étapes pour m2n1
         return m2n1R(X, Y);
     }
 
@@ -49,7 +49,7 @@ public class Mult2n {
     }
 
     public int m2n2() {
-        steps.setLength(0); // Clear steps for m2n2
+        steps.setLength(0); // réinitialise les étapes pour m2n1
         return m2n2R(X, Y);
     }
 
