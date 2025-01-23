@@ -65,12 +65,14 @@ public class TasK {
     }
 
     public static void main(String[] args) {
-        int[] tab = { 16,4, 10, 14, 7, 9, 3, 2, 8, 1};
+        //int[] tab = { 16,4, 10, 14, 7, 9, 3, 2, 8, 1};
+        int[] tab = { 16,14, 9, 11,22, 10, 3, 4, 1, 7,13, 8, 2, 5, 6, 12};
         TasK tas = new TasK(3, tab);
 
         // Affichage du tableau après la construction du tas
         for (int i = 0; i < tas.tas.length; i++) {
-            System.out.println(tas.tas[i]);
+            System.out.print(tas.tas[i] + " ");
         }
+        System.out.println();
     }
 }
